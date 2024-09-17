@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:expressions/expressions.dart';
 
@@ -87,38 +88,45 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               ),
             ),
           ),
-          Row(
+            Row(
             children: [
               _buildButton('7'),
               _buildButton('8'),
               _buildButton('9'),
               _buildButton('+'),
             ],
-          ),
-          Row(
+            ),
+            Row(
             children: [
               _buildButton('4'),
               _buildButton('5'),
               _buildButton('6'),
               _buildButton('-'),
             ],
-          ),
-          Row(
+            ),
+            Row(
             children: [
               _buildButton('1'),
               _buildButton('2'),
               _buildButton('3'),
               _buildButton('*'),
             ],
-          ),
-          Row(
+            ),
+            Row(
             children: [
               _buildButton('0'),
               _buildButton('.'),
               _buildButton('='),
               _buildButton('/'),
+              
             ],
-          ),
+            ),
+            Row(
+              children: [
+                _buildButton('%'),
+              ]
+            ),
+    
           Row(
             children: [
               Expanded(
